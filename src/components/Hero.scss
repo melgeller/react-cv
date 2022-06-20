@@ -1,0 +1,33 @@
+.hero{
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://payload.cargocollective.com/1/14/476414/14154587/TOLKIEN-F_670.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 50px;
+    a{
+        text-decoration: none;
+        color: paleturquoise;
+    }
+    p{
+        font-size: large;
+    }
+    h2{
+        font-size: x-large;
+    }
+}
+.card{
+    .img{
+        width: 350px;
+        border-radius: 300px;
+        border: 10px solid rgba(255, 255, 255, 0.623);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        margin-top: 30px;
+    }
+    width: 50vw;
+    margin: 50px;
+    color: white;
+}

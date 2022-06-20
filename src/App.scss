@@ -1,0 +1,20 @@
+.botones{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  button{
+    background-color: black;
+    border: 5px solid black;
+    cursor: pointer;
+  }
+}
+
+
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}

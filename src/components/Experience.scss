@@ -1,0 +1,12 @@
+.experience-card{
+    height: 85vh ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://payload.cargocollective.com/1/14/476414/14154587/TOLKIEN-F_670.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 50px;
+    color: white;
+}

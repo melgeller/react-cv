@@ -1,0 +1,28 @@
+.about-card{
+    height: 85vh ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://payload.cargocollective.com/1/14/476414/14154587/TOLKIEN-F_670.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 50px;
+    color: white;
+    .about{
+        border: 10px solid rgba(255, 255, 255, 0.623);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        width: 500px;
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.315);
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 300px;
+        p{
+            font-size: large;
+        }
+    }
+}
